@@ -1,4 +1,4 @@
-# Cildix Guidelines
+# Cildix Guidelines [![Build Status](https://travis-ci.org/sempretecnologia/cildix-guidelines.svg?branch=master)](https://travis-ci.org/sempretecnologia/cildix-guidelines)
 =========
 
 css theme for bootstrap 4

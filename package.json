@@ -1,6 +1,6 @@
 {
   "name": "cildix-guidelines",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "CSS theme for bootstrap 4.",
   "main": "index.js",
   "scripts": {
