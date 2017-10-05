@@ -36,8 +36,12 @@ $c-purples: #e3daeb;
 /* Geral */
 
 header {
-    background: url('assets/images/bg-header.jpg') no-repeat center #4197b5;
+    background: url('http://cildix-guidelines-staging.azurewebsites.net/assets/images/bg-header.jpg') no-repeat center #4197b5;
     margin-bottom: 30px;
+}
+
+header .container-fluid {
+    padding:0;
 }
 
 footer {
@@ -412,6 +416,10 @@ samp:before, samp:after {
 .btn-info {
     background-color: #472583;
     border-color: #351967;
+}
+
+.btn:hover {
+    cursor: pointer;
 }
 
 .btn-primary:hover {
@@ -880,6 +888,22 @@ a.list-group-item-info:focus, a.list-group-item-info:hover, button.list-group-it
 .navbar-dark .navbar-toggler {
     color: #fff;
     border-color: #fff;
+}
+
+header nav ul {
+    display: block !important;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+a.navbar-brand {
+    color: #fff;
 }
 
 /* Paginação */

@@ -1,11 +1,11 @@
 {
   "name": "cildix-guidelines",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "CSS theme for bootstrap 4.",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha --reporter spec"
-  },
+  "main": "theme.css",
+  "files": [
+    "theme.css"
+  ],
   "repository": {
     "type": "git",
     "url": "cildix-guidelines"
@@ -13,12 +13,12 @@
   "keywords": [
     "css",
     "bootstrap4",
-    "theme"
+    "theme",
+    "css-module"
   ],
   "author": "Marcus Domingos <marcus.supernova@gmail.com>",
   "license": "UNLICENSED",
   "devDependencies": {
-    "chai": "^4.1.2",
-    "mocha": "^3.5.3"
+    "chai": "^4.1.2"
   }
 }

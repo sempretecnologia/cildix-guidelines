@@ -5,15 +5,38 @@ css theme for bootstrap 4
 
 ## Installation
 
-  `npm install @sempretecnologia/cildix-guidelines`
+  `npm install cildix-guidelines --save`
 
 ## Usage
 
-Lorem.
+Load the Styles along with the Component
 
-## Tests
+When you include the theme with its precompiled CSS through the styleUrls property of the component, the styles will be loaded along with the component. Because the themes contain global styles, make sure that you set the encapsulation property of the component to ViewEncapsulation.None.
 
-  `npm test`
+`import { Component } from '@angular/core';
+import { ViewEncapsulation } from '@angular/core';
+@Component({
+    // prevent style encapsulation
+    encapsulation: ViewEncapsulation.None,
+    selector: 'app',
+    templateUrl: './app.component.html',
+    styleUrls: [
+        '../../../../node_modules/cildix-guidelines/theme.css',
+        './app.component.css'
+    ]
+})
+export class AppComponent {
+}`
+
+!Attention to the correct path to de node_modules folder.
+
+## Troubleshooting
+
+If you have the following error:
+
+`Error: EPERM: operation not permitted, rename`
+
+Just turn off your anti-virus software, install cildix-guidelines, and turn anti-virus on again. This happens when anti-virus try to scan the project folders and files before the rename process, and it blocks the files from be renamed.
 
 ## Contributing
 
