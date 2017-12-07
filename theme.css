@@ -12,7 +12,7 @@ $c-red: #c40b13;
 $c-orange: #ef7d25;
 $c-purple: #472583;
 
-/* Secundárias
+/* Secundarias
 
 $c-bluel: #64ccf4;
 $c-greyl: #dddddd;
@@ -66,6 +66,7 @@ a {
 
 a:hover {
     color: #64ccf4;
+    cursor: pointer;
 }
 
 .text-primary {
@@ -390,6 +391,7 @@ samp:before, samp:after {
 .btn-primary {
     background-color: #4197b5;
     border-color: #267996;
+    color: #fff;
 }
 
 .btn-secondary {
@@ -400,6 +402,7 @@ samp:before, samp:after {
 .btn-success {
     background-color: #61bd6d;
     border-color: #439a4f;
+    color: #fff;
 }
 
 .btn-danger {
